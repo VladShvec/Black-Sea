@@ -1,0 +1,42 @@
+header{
+	background-color: #4d99a4;
+	position: relative;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	nav{
+		float: right;
+		padding-top: 11px;
+	a{
+	text-transform: uppercase;
+	color: #dce3e4;
+	font-size: 18px;
+	font-weight: 400px;
+	line-height: 25px;
+	position: relative;
+	padding-right: 21px;
+	padding-left: 21px;
+	&:last-child{
+	padding-right: 0;
+	}
+	&:last-child:after{
+		content:"" ;
+		width: 0px;
+		height: 0px;
+			
+		}	
+	&:after{
+	content: "";
+	position: relative;
+	left: 21px;
+	width: 1px;
+	height: 14px;
+	background-color: #adcbcf;
+	display: inline-block;
+	transform: rotate(23deg);
+	}	
+	}	
+	}
+	.logo{
+		float: left;
+	}
+}
